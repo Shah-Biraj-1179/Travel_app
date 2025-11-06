@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Adventure Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&family=Bungee+Spice&family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="img1" src="img1.jpg" alt="IIT-Madras">
+    <div class="container">
+        <h1>Welcome to IIT Madras Europe Trip Form</h1>
+        <p>Enter your details and submit this form to confirm your participation in this trip</p>
+        <p class="SubmitMsg">Thanks for submitting your form. We are happy to see you joining us for the Europe Trip</p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your Gender">
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your Phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other Information here"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+        
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
